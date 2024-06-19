@@ -1,4 +1,4 @@
-FROM golang:1.8.0-alpine
+FROM swr.cn-north-4.myhuaweicloud.com/testapp/golang:1.8.0-alpine
 
 ADD . /go/src/app
 

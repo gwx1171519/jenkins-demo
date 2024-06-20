@@ -24,7 +24,7 @@ node('haimaxy-jnlp') {
         }
     }
     stage('Deploy') {
-        echo "5. Deploy Stage"
+        echo "5. Deploy Stage hello "
         if (env.BRANCH_NAME == 'master') {
             input "确认要部署线上环境吗？"
         }
